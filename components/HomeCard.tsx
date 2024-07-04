@@ -3,7 +3,7 @@ import Image from "next/image";
 
 interface HomeCardProps{
     className : String,
-    img : String,
+    img : any,
     description: String,
     title : String,
     handleClick :  () => void
